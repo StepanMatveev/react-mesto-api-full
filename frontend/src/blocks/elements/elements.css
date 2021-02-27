@@ -1,0 +1,20 @@
+@import url(./__list/elements__list.css);
+@import url(./__place-button/elements__place-button.css);
+@import url(./__place-image/elements__place-image.css);
+@import url(./__place-signature/elements__place-signature.css);
+@import url(./__place-title/elements__place-title.css);
+@import url(./__place/elements__place.css);
+@import url(./__remove-button/element__remove-button.css);
+@import url(./__place-button/_active/elements__place-button_active.css);
+
+.elements {
+    max-width: 882px;
+    padding-top: 51px;
+    margin: auto;
+}
+
+@media screen and (max-width: 425px) {
+    .elements {
+        padding-top: 36px;
+    }
+}

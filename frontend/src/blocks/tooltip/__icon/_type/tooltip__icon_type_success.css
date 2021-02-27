@@ -1,0 +1,6 @@
+.tooltip__icon_type_success {
+    background-image: url('../../../../images/success.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

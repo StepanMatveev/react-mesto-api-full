@@ -1,0 +1,6 @@
+.tooltip__icon_type_error {
+    background-image: url('../../../../images/error.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

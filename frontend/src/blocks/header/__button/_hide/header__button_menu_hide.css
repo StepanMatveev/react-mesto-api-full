@@ -1,0 +1,10 @@
+.header__button_menu_hide {
+    background-color: transparent;
+    background-image: url('../../../../images/close-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    -webkit-background-size: auto;        
+    -moz-background-size: auto;          
+    -o-background-size: auto; 
+}

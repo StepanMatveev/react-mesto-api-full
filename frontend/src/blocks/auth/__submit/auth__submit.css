@@ -1,0 +1,26 @@
+.auth__submit {
+    width: 100%;
+    margin: 216px 0px 0px 0px;
+    padding: 14px 0px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.auth__submit:hover {
+    opacity: 0.85;
+}
+
+@media all and (max-width: 600px) {
+    .auth__submit {
+        margin: 173px 0px 0px 0px;
+    }
+}

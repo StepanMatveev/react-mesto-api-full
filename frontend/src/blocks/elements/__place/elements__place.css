@@ -1,0 +1,11 @@
+.elements__place {
+    height: 361px;
+    width: 282px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+

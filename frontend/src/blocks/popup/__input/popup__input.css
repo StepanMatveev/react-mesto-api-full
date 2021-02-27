@@ -1,0 +1,17 @@
+@import url(./_name/popup__input_name.css);
+@import url(./_occupation/popup__input_occupation.css);
+@import url(./_link/popup__input_link.css);
+@import url(./_pic-name/popup__input_pic-name.css);
+
+.popup__input {
+    font-family: 'Inter','Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+    width: 100%;
+    margin: 54px 0px 0px;
+    padding-bottom: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

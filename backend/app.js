@@ -1,9 +1,9 @@
 require('dotenv').config();
+const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
-const cors = require('cors');
 const { errors } = require('celebrate');
 const { validateUserData } = require('./middlewares/validation');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
@@ -22,7 +22,7 @@ mongoose.connect('mongodb://localhost:27017/mydb', {
   useFindAndModify: false,
   useUnifiedTopology: true,
 });
-
+app.use(cors());
 app.use(helmet());
 app.disable('x-powered-by');
 app.use(bodyParser.json());

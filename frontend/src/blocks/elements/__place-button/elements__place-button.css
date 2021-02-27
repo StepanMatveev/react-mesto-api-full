@@ -1,0 +1,18 @@
+.elements__place-button {
+    width: 21px;
+    height: 20px;
+    background-image: url(../../../images/heart_button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.elements__place-button:hover:active {
+    opacity: 0.6;
+}

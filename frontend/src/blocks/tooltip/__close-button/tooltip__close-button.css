@@ -1,0 +1,33 @@
+.tooltip__close-button {
+    min-width: 40px;
+    min-height: 40px;
+    background-image: url(../../../images/close_button.svg);
+    background-size: 100%;
+    object-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    outline: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip__close-button:hover {
+    opacity: 0.6;
+}
+
+@media all and (max-width: 425px) {
+    .tooltip__close-button {
+        min-width: 30px;
+        min-height: 30px;
+        top: -60px;
+        right: 45%;
+        width: 30px;
+        height: 30px;
+    }
+}

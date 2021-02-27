@@ -1,0 +1,18 @@
+@import url(./__logo/header__logo.css);
+@import url(__auth/header__auth.css);
+@import url(__auth-email/header__auth-email.css);
+@import url(__auth-nav/header__auth-nav.css);
+
+.header {
+    max-width: 882px;
+    margin: auto;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        max-width: 100%;
+    }
+}

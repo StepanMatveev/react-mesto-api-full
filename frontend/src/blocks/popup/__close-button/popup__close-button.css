@@ -1,0 +1,32 @@
+@import url(./_add-place/popup__close-button_add-place.css);
+@import url(./_image/popup__close-button_image.css);
+@import url(./_profile/popup__close-button_profile.css);
+
+.popup__close-button {
+    min-width: 40px;
+    min-height: 40px;
+    background-image: url(../../../images/close_button.svg);
+    background-size: 100%;
+    object-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    outline: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.popup__close-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 425px) {
+    .popup__close-button {
+        right: 0px;
+    }
+}

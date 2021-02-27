@@ -1,0 +1,19 @@
+.auth__input {
+    margin: 0px 0px 30px 0px;
+    padding: 13px 0px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #CCCCCC;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #000000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.auth__input:last-of-type {
+    margin-bottom: 0;
+}

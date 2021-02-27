@@ -1,0 +1,20 @@
+.element__remove-button {
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    background-image: url(../../../images/delete_button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.element__remove-button:hover{
+    opacity: 0.6;
+}

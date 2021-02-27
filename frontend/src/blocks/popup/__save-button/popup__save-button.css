@@ -1,0 +1,29 @@
+@import url(./_place/popup__save-button_place.css);
+@import url(./_profile/popup__save-button_profile.css);
+
+.popup__save-button {
+    display: block;
+    min-width: 358px;
+    min-height: 50px;
+    margin: 48px auto 0px;
+    padding: 0px;
+    background-color:rgba(0, 0, 0, 1);
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup__save-button:hover {
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 425px) {
+    .popup__save-button {
+        min-width: 90%;
+    }
+}

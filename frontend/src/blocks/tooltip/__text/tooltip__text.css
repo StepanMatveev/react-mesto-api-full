@@ -1,0 +1,15 @@
+.tooltip__text {
+    margin: 32px 0px 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+@media all and (max-width: 600px) { 
+    .tooltip__text {
+        margin: 40px 0px 0px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

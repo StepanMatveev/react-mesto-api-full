@@ -1,0 +1,12 @@
+.header__auth {
+    margin: 51px 0px 46px 0px;
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 425px) {
+    .header__auth {
+        padding-right: 27px;
+        margin: 34px 0px 33px 0px;
+    }
+}

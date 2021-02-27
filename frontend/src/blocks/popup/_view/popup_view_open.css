@@ -1,0 +1,5 @@
+.popup_view_open {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}

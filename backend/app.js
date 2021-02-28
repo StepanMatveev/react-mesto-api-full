@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const { errors } = require('celebrate');
-const { validateUserData } = require('./middlewares/validation');
+const { validateUserData, validatAddeUser } = require('./middlewares/validation');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 const { createUser, login } = require('./controllers/users');
 const cardsRouter = require('./routes/cards');
@@ -50,7 +50,7 @@ app.get('/crash-test', () => {
 });
 
 app.post('/signin', validateUserData, login);
-app.post('/signup', validateUserData, createUser);
+app.post('/signup', validatAddeUser, createUser);
 
 app.use('/users', auth, usersRouter);
 app.use('/cards', auth, cardsRouter);
